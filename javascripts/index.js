@@ -56,9 +56,9 @@
         mouse.x = -rotation / 12;
         mouse.y = -updown / 20;
       });
-			window.addEventListener('click', function(){
-				mouse.x = 0;
-				mouse.y = 0;
+			canvas.addEventListener('click', function(){
+				rotation = 0;
+				updown = 0;
 			});
       //document.addEventListener( 'mousemove', function( event ) {
         //mouse.x = event.clientX;
